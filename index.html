@@ -279,8 +279,7 @@
                 showError('errorA', 'Please enter a valid number for coefficient a');
                 hasError = true;
             } else if (parseFloat(a) === 0) {
-                showError('errorA', 'Coefficient a cannot be zero (not a quadratic equation)');
-                hasError = true;
+                showError('errorA', ''Error: Coefficient a cannot be zero. This would not be a quadratic equation.');
             }
 
             if (b === '' || isNaN(b)) {
